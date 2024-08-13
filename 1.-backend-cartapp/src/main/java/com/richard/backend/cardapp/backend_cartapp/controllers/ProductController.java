@@ -17,9 +17,9 @@ public class ProductController {
     private ProductServices services;
 
     @GetMapping("/products")
-    public String getMethodName(@RequestParam String param) {
-        return new String();
-    }
+    // public String getMethodName(@RequestParam String param) {
+    //     return new String();
+    // }
     
     public List<Product> list() {
         return services.findAll();
